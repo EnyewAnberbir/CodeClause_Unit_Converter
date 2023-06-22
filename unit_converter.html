@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="unit_converter.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+
+        <div class="input-group">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit">
+                <option value="cm">Centimeters (cm)</option>
+                <option value="m">Meters (m)</option>
+                <option value="km">Kilometers (km)</option>
+                
+                
+            </select>
+        </div>
+
+        <div class="input-group">
+            <input type="number" id="outputValue" disabled>
+            <select id="outputUnit">
+                <option value="cm">Centimeters (cm)</option>
+                <option value="m">Meters (m)</option>
+                <option value="km">Kilometers (km)</option>
+            </select>
+        </div>
+
+        <button id="convertButton">Convert</button>
+    </div>
+
+    <script src="unit_converter.js"></script>
+</body>
+
+</html>
